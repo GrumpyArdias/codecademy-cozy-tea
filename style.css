@@ -1,8 +1,12 @@
+* {
+  border: 1px solid limegreen;
+}
 body {
   background-color: black;
   opacity: 0.9;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
+  color: white;
 }
 
 header {
@@ -50,7 +54,6 @@ a {
 .misionText {
   width: 100%;
   display: flex;
-  color: white;
   position: absolute;
   background-color: black;
   align-items: center;
@@ -63,4 +66,88 @@ a {
 }
 .misionText p {
   margin-top: 5px;
+}
+
+.tea {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.teaText h2,
+p {
+  text-align: center;
+}
+
+.teaContainer {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.teas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 33%;
+  flex-direction: column;
+}
+
+.teas img {
+  width: 300;
+  height: 200px;
+}
+
+.teas img {
+  margin-bottom: 5px;
+}
+.teas p {
+  margin-top: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  background-image: url("./images/img-locations-background.jpg");
+  width: 90%;
+  margin: 0 auto;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.locationsH2 {
+  position: absolute;
+}
+
+.locationTextContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.locationText {
+  display: block;
+  background-color: black;
+  margin-left: 40px;
+  text-align: center;
+  width: 300px;
+}
+
+.locationText h3 {
+  margin-top: 5px;
+}
+
+.contact {
+  text-align: center;
+  height: 200px;
 }
