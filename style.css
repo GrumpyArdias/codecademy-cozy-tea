@@ -1,12 +1,10 @@
-* {
-  border: 1px solid limegreen;
-}
 body {
   background-color: black;
   opacity: 0.9;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: white;
+  padding-top: 80px;
 }
 
 header {
@@ -17,6 +15,9 @@ header {
   height: 69px;
   align-items: center;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  top: 0;
+  z-index: 1;
 }
 header img {
   height: 50px;
@@ -26,6 +27,7 @@ header img {
 nav ul {
   display: inline-flex;
   list-style-type: none;
+  margin-right: 20px;
 }
 
 nav li {
@@ -45,9 +47,8 @@ a {
 }
 
 .misionImg {
-  position: relative;
   margin: 0 auto;
-  margin-top: 80px;
+
   opacity: 0.6;
 }
 
@@ -73,6 +74,7 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  max-width: 1000px;
 }
 
 .teaText h2,
@@ -81,7 +83,6 @@ p {
 }
 
 .teaContainer {
-  width: 90%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -150,4 +151,8 @@ p {
 .contact {
   text-align: center;
   height: 200px;
+}
+
+footer h5 {
+  text-align: left;
 }
