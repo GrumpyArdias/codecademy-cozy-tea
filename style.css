@@ -1,4 +1,66 @@
-* {
-  border: 1px solid limegreen;
+body {
   background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+header img {
+  height: 50px;
+  margin-left: 20px;
+}
+
+nav ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+a {
+  color: lightgray;
+  text-decoration: underline;
+}
+
+.mision {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.misionImg {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 80px;
+  opacity: 0.6;
+}
+
+.misionText {
+  width: 100%;
+  display: flex;
+  color: white;
+  position: absolute;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.misionText h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.misionText p {
+  margin-top: 5px;
 }
